@@ -11,3 +11,12 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("https://grainy-gradients.vercel.app/noise.svg");
+  opacity: 0.05;
+  pointer-events: none;
+}
