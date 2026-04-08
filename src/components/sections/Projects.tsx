@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { projects } from "@/data/projects";
 import { fadeUp, staggerContainer } from "@/lib/animations";
-
+import { TiltCard } from "@/components/ui/TiltCard";
 export const Projects = () => {
     return (
         <section id="projects" className="px-6 py-28">
@@ -24,40 +24,40 @@ export const Projects = () => {
                 >
                     {projects.map((project, i) => (
                         <motion.div key={i} variants={fadeUp}>
+                            <TiltCard>
+                                <div className="group rounded-2xl overflow-hidden border border-white/10 bg-white/5 backdrop-blur-lg">
 
-                            <div className="group rounded-2xl overflow-hidden border border-white/10 bg-white/5 backdrop-blur-lg">
+                                    {/* Image */}
+                                    <div className="overflow-hidden">
+                                        <img
+                                            src={`https://picsum.photos/500/300?random=${i}`}
+                                            className="w-full h-48 object-cover group-hover:scale-110 transition duration-500"
+                                        />
+                                    </div>
 
-                                {/* Image */}
-                                <div className="overflow-hidden">
-                                    <img
-                                        src={`https://picsum.photos/500/300?random=${i}`}
-                                        className="w-full h-48 object-cover group-hover:scale-110 transition duration-500"
-                                    />
-                                </div>
+                                    {/* Content */}
+                                    <div className="p-5">
+                                        <h3 className="text-lg font-semibold">
+                                            {project.title}
+                                        </h3>
 
-                                {/* Content */}
-                                <div className="p-5">
-                                    <h3 className="text-lg font-semibold">
-                                        {project.title}
-                                    </h3>
+                                        <p className="text-gray-400 text-sm mt-2">
+                                            {project.description}
+                                        </p>
 
-                                    <p className="text-gray-400 text-sm mt-2">
-                                        {project.description}
-                                    </p>
-
-                                    <div className="flex flex-wrap gap-2 mt-4">
-                                        {project.tech.map((tech, idx) => (
-                                            <span
-                                                key={idx}
-                                                className="text-xs bg-indigo-500/10 text-indigo-300 px-2 py-1 rounded-md"
-                                            >
-                                                {tech}
-                                            </span>
-                                        ))}
+                                        <div className="flex flex-wrap gap-2 mt-4">
+                                            {project.tech.map((tech, idx) => (
+                                                <span
+                                                    key={idx}
+                                                    className="text-xs bg-indigo-500/10 text-indigo-300 px-2 py-1 rounded-md"
+                                                >
+                                                    {tech}
+                                                </span>
+                                            ))}
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-
+                            </TiltCard>
                         </motion.div>
                     ))}
                 </motion.div>
