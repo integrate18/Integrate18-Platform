@@ -1,178 +1,136 @@
-# 🚀 LaunchStack — Product Engineering Portfolio
+# LaunchStack — Product Engineering Portfolio
 
-A modern, high-performance portfolio website for a product engineering team focused on building scalable SaaS and AI-powered systems.
+A modern, high-performance portfolio for an 8-engineer product team focused on building scalable SaaS and AI-powered systems for startups.
 
-Built with a **Linear / Vercel-inspired design system**, this project showcases capabilities, case studies, and a structured development approach for startups.
-
----
-
-## 🌐 Live Preview
-
-> (Add your deployed link here)
+Inspired by the Linear design system — clean, minimal, and conversion-focused.
 
 ---
 
-## 🧠 About
+## Live Preview
 
-LaunchStack is a product engineering team helping startups go from **idea → MVP → scale**.
-
-This portfolio is designed not just as a showcase, but as a **conversion-focused landing page** that communicates:
-
-* Clear value proposition
-* Real-world engineering capability
-* Structured development process
-* Case study-driven proof
+> Add your deployed link here
 
 ---
 
-## ✨ Features
+## About
 
-* ⚡ **Modern SaaS UI** (Linear / Vercel inspired)
-* 🎬 **Smooth animations** (Framer Motion)
-* 🧲 **Magnetic buttons & micro-interactions**
-* 🌌 **Interactive hero (parallax + gradient)**
-* 🧊 **3D tilt project cards**
-* 💼 **Case study pages (dynamic routing)**
-* 📊 **Structured sections (Problem → Solution → Process → Proof)**
-* 📱 Fully responsive design
+LaunchStack is a cross-functional team of 8 engineers covering every layer of a product — frontend, backend, mobile, DevOps, and AI — helping startups go from **idea to MVP to scale**.
 
----
+This portfolio communicates:
 
-## 🧱 Tech Stack
-
-* ⚛️ React + TypeScript
-* ⚡ Vite
-* 🎨 Tailwind CSS (v4)
-* 🎬 Framer Motion
-* 🔗 React Router
-* 🎯 React Icons
+- Clear value proposition for startup founders
+- Real-world engineering capability across the full stack
+- Structured 4-step development process
+- Code-first credibility with syntax-highlighted React snippets
 
 ---
 
-## 📁 Project Structure
+## Sections
+
+| Section | Purpose |
+|---|---|
+| Hero | Animated intro with floating code card and team size stat |
+| Problem | Pain points: freelancers, agencies, in-house |
+| Solution | Speed / Scale / Quality 3-pillar grid |
+| Code Showcase | Linear-inspired split: feature list + live `useAuth.tsx` CodeWindow |
+| Tech Stack | Scrolling marquee of 20+ technologies across all disciplines |
+| Services | 4 core offerings with descriptions |
+| Team | 8 developer role cards with tech badges |
+| How It Works | 4-step process: Understand → Design → Build → Launch |
+| Projects | Selected case studies with 3D tilt cards |
+| Testimonials | Social proof |
+| Pricing | Starter and Growth tiers |
+| CTA | Conversion-focused call to action |
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Framework | React 19 + TypeScript |
+| Build tool | Vite |
+| Styling | Tailwind CSS v4 |
+| Animations | Framer Motion |
+| Icons | React Icons |
+
+---
+
+## Project Structure
 
 ```
 src/
 ├── components/
-│   ├── layout/
-│   ├── sections/
-│   └── ui/
-├── pages/
-├── data/
-├── types/
-├── lib/
-└── App.tsx
+│   ├── layout/        # Navbar, Footer, Container
+│   ├── sections/      # One file per page section
+│   └── ui/            # Reusable primitives (CodeWindow, TiltCard, etc.)
+├── pages/             # Home.tsx — section composition
+├── data/              # services.ts, projects.ts
+├── lib/               # animations.ts — shared Framer Motion variants
+└── types/             # TypeScript interfaces
 ```
 
 ---
 
-## 🚀 Getting Started
-
-### 1. Clone the repo
+## Getting Started
 
 ```bash
+# Clone
 git clone https://github.com/your-username/launchstack.git
 cd launchstack
-```
 
----
-
-### 2. Install dependencies
-
-```bash
+# Install
 npm install
-```
 
----
-
-### 3. Run development server
-
-```bash
+# Dev server
 npm run dev
+
+# Production build
+npm run build
 ```
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
-### Tailwind Setup (v4)
+**Tailwind v4** — imported directly in CSS:
 
 ```css
 @import "tailwindcss";
 ```
 
-### Path Alias
+**Path alias** — `@/` maps to `src/`:
 
 ```json
-"paths": {
-  "@/*": ["src/*"]
-}
+"paths": { "@/*": ["src/*"] }
 ```
 
 ---
 
-## 📸 Sections Overview
+## Team Coverage
 
-* Hero (animated, interactive)
-* Problem (pain points)
-* Solution (positioning)
-* Capabilities (services)
-* How It Works (process)
-* Case Studies (projects)
-* Testimonials (social proof)
-* Pricing (service tiers)
-* CTA (conversion focused)
+8 engineers across:
 
----
-
-## 🎯 Philosophy
-
-This project follows a simple principle:
-
-> **Clarity > Flashiness**
-
-* Minimal but expressive UI
-* Strong typography
-* Subtle motion
-* Real outcomes over features
+- **Frontend** — React, Next.js, TypeScript, Tailwind, Framer Motion
+- **Backend** — Node.js, Go, Python (FastAPI), Java (Spring Boot)
+- **Mobile** — React Native, Flutter
+- **DevOps** — AWS, Docker, Kubernetes, GitHub Actions, Terraform
+- **AI/ML** — OpenAI API, LangChain, Hugging Face
+- **Databases** — PostgreSQL, MongoDB, Redis
 
 ---
 
-## 📈 Future Improvements
+## Design Philosophy
 
-* SEO optimization
-* Lead capture (email + backend)
-* Analytics integration
-* CMS for case studies
-* Blog / content marketing
+> Clarity over flashiness.
 
----
-
-## 🤝 Contributing
-
-Contributions, suggestions, and improvements are welcome.
+- Bold typography, minimal chrome
+- Subtle animations that inform rather than distract
+- Code as a visual — real snippets, not mockups
+- Outcome-focused copy for startup founders
 
 ---
 
-## 📬 Contact
+## License
 
-If you're building a product or need help scaling:
-
-👉 Reach out via the website
-👉 Or connect on LinkedIn
-
----
-
-## ⭐ Acknowledgements
-
-Inspired by:
-
-* Linear
-* Vercel
-* Modern SaaS design systems
-
----
-
-## 🪪 License
-
-MIT License
+MIT
