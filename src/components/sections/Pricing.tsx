@@ -13,7 +13,7 @@ const plans = [
 
 export const Pricing = () => {
     return (
-        <section className="py-28 px-6 text-center">
+        <section className="py-32 px-6 text-center">
             <h2 className="text-4xl mb-12">Pricing</h2>
 
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">

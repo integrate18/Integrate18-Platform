@@ -4,7 +4,7 @@ import { fadeUp, staggerContainer } from "@/lib/animations";
 import { TiltCard } from "@/components/ui/TiltCard";
 export const Projects = () => {
     return (
-        <section id="projects" className="px-6 py-28">
+        <section id="projects" className="px-6 py-32">
             <div className="max-w-7xl mx-auto">
 
                 <motion.h2

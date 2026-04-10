@@ -23,17 +23,19 @@ export const Hero = () => {
 
             {/* Main content */}
             <ParallaxLayer strength={80}>
-                <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-                    Build scalable SaaS products <br />
-                    <span className="bg-linear-to-r from-indigo-400 to-purple-400 text-transparent bg-clip-text">
-                        and AI-powered systems
+                <h1 className="text-6xl md:text-7xl font-semibold tracking-tight">
+                    We build products <br />
+                    <span className="text-white/60">
+                        that scale with your business
                     </span>
                 </h1>
+
             </ParallaxLayer>
 
             <ParallaxLayer strength={100}>
-                <p className="mt-6 text-gray-400 max-w-xl">
-                    We help startups launch faster with modern engineering.
+                <p className="mt-6 text-lg text-gray-400 max-w-xl">
+                    A product engineering team for startups—focused on speed,
+                    scalability, and real outcomes.
                 </p>
             </ParallaxLayer>
 

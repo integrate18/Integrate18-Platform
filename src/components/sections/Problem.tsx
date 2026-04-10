@@ -1,6 +1,6 @@
 export const Problem = () => {
     return (
-        <section className="py-28 text-center max-w-5xl mx-auto px-6">
+        <section className="py-32 text-center max-w-5xl mx-auto px-6">
             <h2 className="text-4xl font-bold mb-6">
                 Building products is harder than it should be
             </h2>

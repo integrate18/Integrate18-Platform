@@ -11,7 +11,7 @@ const services = [
 
 export const Services = () => {
     return (
-        <section id="services" className="px-6 py-28">
+        <section id="services" className="px-6 py-32">
             <div className="max-w-6xl mx-auto">
 
                 <h2 className="text-4xl font-bold text-center mb-16">

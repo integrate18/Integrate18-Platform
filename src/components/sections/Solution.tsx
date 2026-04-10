@@ -1,6 +1,6 @@
 export const Solution = () => {
     return (
-       <section className="py-28 text-center border-y border-white/10">
+       <section className="py-32 text-center border-y border-white/10">
             <h2 className="text-4xl font-bold mb-6">
                 We act as your product engineering team
             </h2>
