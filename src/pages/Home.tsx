@@ -1,9 +1,9 @@
+import { CodeShowcase } from "../components/sections/CodeShowcase";
 import { Hero } from "../components/sections/Hero";
 import { Problem } from "../components/sections/Problem";
-import { Solution } from "../components/sections/Solution";
-import { CodeShowcase } from "../components/sections/CodeShowcase";
-import { TechStack } from "../components/sections/TechStack";
 import { Services } from "../components/sections/Services";
+import { Solution } from "../components/sections/Solution";
+import { TechStack } from "../components/sections/TechStack";
 // import { Team } from "../components/sections/Team";
 import { HowItWorks } from "@/components/sections/HowItWorks";
 // import { Projects } from "../components/sections/Projects";
