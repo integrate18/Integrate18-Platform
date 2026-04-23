@@ -8,7 +8,7 @@ Inspired by the Linear design system — clean, minimal, and conversion-focused.
 
 ## Live Preview
 
-> Add your deployed link here
+> https://launch-portfolio.vercel.app/
 
 ---
 
