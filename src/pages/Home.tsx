@@ -4,11 +4,11 @@ import { Solution } from "../components/sections/Solution";
 import { CodeShowcase } from "../components/sections/CodeShowcase";
 import { TechStack } from "../components/sections/TechStack";
 import { Services } from "../components/sections/Services";
-import { Team } from "../components/sections/Team";
+// import { Team } from "../components/sections/Team";
 import { HowItWorks } from "@/components/sections/HowItWorks";
-import { Projects } from "../components/sections/Projects";
+// import { Projects } from "../components/sections/Projects";
 import { Testimonials } from "@/components/sections/Testimonials";
-import { Pricing } from "@/components/sections/Pricing";
+// import { Pricing } from "@/components/sections/Pricing";
 import { CTA } from "../components/sections/CTA";
 
 export const Home = () => {
@@ -20,11 +20,11 @@ export const Home = () => {
             <CodeShowcase />
             <TechStack />
             <Services />
-            <Team />
+            {/* <Team /> */}
             <HowItWorks />
-            <Projects />
+            {/* <Projects /> */}
             <Testimonials />
-            <Pricing />
+            {/* <Pricing /> */}
             <CTA />
         </>
     );

@@ -1,4 +1,4 @@
-# LaunchStack — Product Engineering Portfolio
+# Integrate18 — Product Engineering Portfolio
 
 A modern, high-performance portfolio for an 8-engineer product team focused on building scalable SaaS and AI-powered systems for startups.
 
@@ -14,7 +14,7 @@ Inspired by the Linear design system — clean, minimal, and conversion-focused.
 
 ## About
 
-LaunchStack is a cross-functional team of 8 engineers covering every layer of a product — frontend, backend, mobile, DevOps, and AI — helping startups go from **idea to MVP to scale**.
+Integrate18 is a cross-functional team of 8 engineers covering every layer of a product — frontend, backend, mobile, DevOps, and AI — helping startups go from **idea to MVP to scale**.
 
 This portfolio communicates:
 

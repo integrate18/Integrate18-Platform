@@ -1,3 +1,25 @@
+import { FiMail } from "react-icons/fi";
+
+export default function ContactEmail() {
+    return (
+        <div className="mt-8 flex justify-center gap-4 flex-wrap">
+            <a
+                href="mailto:admin@integrate18.com?subject=Inquiry&body=Hi team,"
+                // className="group px-6 py-3 rounded-xl border border-white/20 
+                //    text-white flex items-center gap-2
+                //    hover:bg-white/10 transition duration-200 
+                //    shadow-sm hover:shadow-md"
+                className="group px-6 py-3 rounded-xl bg-white text-black font-medium 
+           flex items-center gap-2 hover:bg-gray-200 transition 
+           shadow-md hover:shadow-lg"
+            >
+                <FiMail className="text-lg group-hover:scale-110 transition" />
+                <span className="font-medium">admin@integrate18.com</span>
+            </a>
+        </div>
+    );
+}
+
 export const CTA = () => {
     return (
         <section
@@ -21,14 +43,15 @@ export const CTA = () => {
                     </p>
 
                     <div className="mt-8 flex justify-center gap-4 flex-wrap">
+                        <ContactEmail />
 
-                        <button className="px-6 py-3 rounded-lg bg-white text-black font-medium hover:bg-gray-200 transition">
+                        {/* <button  className="px-6 py-3 rounded-lg bg-white text-black font-medium hover:bg-gray-200 transition">
                             Book a call
                         </button>
 
                         <button className="px-6 py-3 rounded-lg border border-white/20 hover:bg-white/10 transition">
                             View case studies
-                        </button>
+                        </button> */}
 
                     </div>
 
