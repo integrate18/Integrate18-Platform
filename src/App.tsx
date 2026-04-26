@@ -5,6 +5,7 @@ import { CursorGlow } from "./components/ui/CursorGlow";
 import { AnimatePresence } from "framer-motion";
 import { PageWrapper } from "./components/ui/PageWrapper";
 
+
 function App() {
   return (
     <AnimatePresence mode="wait">
