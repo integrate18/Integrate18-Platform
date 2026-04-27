@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://integrate18.com/sitemap.xml
