@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Navbar } from "./components/layout/Navbar";
 import { Footer } from "./components/layout/Footer";
 import { Home } from "./pages/Home";
@@ -5,8 +6,13 @@ import { CursorGlow } from "./components/ui/CursorGlow";
 import { AnimatePresence } from "framer-motion";
 import { PageWrapper } from "./components/ui/PageWrapper";
 
-
 function App() {
+  useEffect(() => {
+    if (window.location.pathname === "/go") {
+      window.history.replaceState({}, "", "/");
+    }
+  }, []);
+
   return (
     <AnimatePresence mode="wait">
       <PageWrapper>
