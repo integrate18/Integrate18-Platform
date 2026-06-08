@@ -76,7 +76,7 @@ src/
 
 ```bash
 # Clone
-git clone https://github.com/your-username/launchstack.git
+git clone https://github.com/integrate18/Integrate18-Platform.git
 cd launchstack
 
 # Install
