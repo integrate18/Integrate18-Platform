@@ -14,7 +14,7 @@ Inspired by the Linear design system — clean, minimal, and conversion-focused.
 
 ## About
 
-Integrate18 is a cross-functional team of 8 engineers covering every layer of a product — frontend, backend, mobile, DevOps, and AI — helping startups go from **idea to MVP to scale**.
+Integrate18 is a cross-functional team of engineers covering every layer of a product — frontend, backend, mobile, DevOps, and AI — helping startups go from **idea to MVP to scale**.
 
 This portfolio communicates:
 
