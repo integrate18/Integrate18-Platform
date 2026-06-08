@@ -82,12 +82,12 @@ export const Services = () => {
                                     {service.description}
                                 </p>
 
-                                <div className="flex items-center gap-1 text-indigo-400 text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity">
+                                {/* <div className="flex items-center gap-1 text-indigo-400 text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity">
                                     <span>Learn more</span>
                                     <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                                         <path d="M2 7H12M8 3L12 7L8 11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                     </svg>
-                                </div>
+                                </div> */}
 
                                 <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition bg-linear-to-br from-indigo-500/5 to-purple-500/5 pointer-events-none" />
                             </motion.div>
