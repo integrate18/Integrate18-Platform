@@ -92,7 +92,7 @@ export const Team = () => {
                         viewport={{ once: true }}
                         className="text-4xl md:text-5xl font-semibold tracking-tight"
                     >
-                        8 engineers.{" "}
+                        All engineers.{" "}
                         <span className="bg-linear-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
                             Zero silos.
                         </span>

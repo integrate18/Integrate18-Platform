@@ -88,7 +88,7 @@ export const TechStack = () => {
                     viewport={{ once: true }}
                     className="text-gray-400 mt-4 max-w-xl mx-auto"
                 >
-                    8 engineers across frontend, backend, mobile, DevOps, and AI — no gaps, no handoffs to random contractors.
+                    Engineers across frontend, backend, mobile, DevOps, and AI — no gaps, no handoffs to random contractors.
                 </motion.p>
             </div>
 

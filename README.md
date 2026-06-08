@@ -109,7 +109,7 @@ npm run build
 
 ## Team Coverage
 
-8 engineers across:
+Engineers across:
 
 - **Frontend** — React, Next.js, TypeScript, Tailwind, Framer Motion
 - **Backend** — Node.js, Go, Python (FastAPI), Java (Spring Boot)
