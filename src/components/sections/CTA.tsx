@@ -14,7 +14,7 @@ export default function ContactEmail() {
            shadow-md hover:shadow-lg"
             >
                 <FiMail className="text-lg group-hover:scale-110 transition" />
-                <span className="font-medium">admin@integrate18.com</span>
+                <span className="font-medium">Let's Connect</span>
             </a>
         </div>
     );

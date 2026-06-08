@@ -42,7 +42,7 @@ export const Hero = () => {
             </div>
 
             {/* Team size stat card — bottom left */}
-            <div className="absolute left-10 bottom-40 hidden md:block">
+            {/* <div className="absolute left-10 bottom-40 hidden md:block">
                 <ParallaxLayer strength={35}>
                     <FloatingCard>
                         <p className="text-xs text-white/50 mb-1">Team size</p>
@@ -50,7 +50,7 @@ export const Hero = () => {
                         <p className="text-xs text-white/40">engineers</p>
                     </FloatingCard>
                 </ParallaxLayer>
-            </div>
+            </div> */}
 
             {/* Main content */}
             <ParallaxLayer strength={80}>
@@ -64,7 +64,7 @@ export const Hero = () => {
 
             <ParallaxLayer strength={100}>
                 <p className="mt-6 text-lg text-gray-400 max-w-xl">
-                    An 8-engineer product team for startups — React, Node, Go, Python, and AI,
+                    A product team for startups — React, Node, Go, Python, AI and Others
                     all under one roof.
                 </p>
             </ParallaxLayer>
