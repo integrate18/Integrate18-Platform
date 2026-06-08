@@ -76,8 +76,8 @@ src/
 
 ```bash
 # Clone
-git clone https://github.com/your-username/launchstack.git
-cd launchstack
+git clone https://github.com/integrate18/Integrate18-Platform.git
+cd Integrate18-Platform
 
 # Install
 npm install
